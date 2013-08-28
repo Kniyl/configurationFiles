@@ -12,3 +12,7 @@ ln -s $confDir/yaourtrc ~/.yaourtrc
 ln -s $confDir/ArchCursorBlue ~/.icons/ArchCursorBlue
 ln -s $confDir/OxygenRefit2-black-version ~/.icons/OxygenRefit2-black-version
 ln -s $confDir/gtkrc-2.0 ~/.gtkrc-2.0
+
+mkdir -p $confDir/Terminal/
+ln -s $confDir/terminalrc $confDir/Terminal/terminalrc
+
