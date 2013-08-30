@@ -3,7 +3,6 @@
 confDir="~/.config/configurationFiles"
 
 cp $confDir/bashrc ~/.bashrc
-ln -s $confDir/vimrc ~/.vimrc
 ln -s $confDir/latexmkrc ~/.latexmkrc
 
 mkdir -p ~/PkgBuilding/
