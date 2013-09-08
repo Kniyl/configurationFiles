@@ -4,10 +4,10 @@
 #
 
 # your notebook monitor
-DEFAULT_OUTPUT='LVDS1'
+DEFAULT_OUTPUT='DVI-I-1'
 
 # outputs to toggle if connected
-OUTPUTS='VGA1 HDMI1 DP1'
+OUTPUTS='DVI-I-2'
 
 # get info from xrandr
 XRANDR=`xrandr`
@@ -20,7 +20,7 @@ do
         then
                 if [[ $XRANDR == *$CURRENT\ connected\ \(* ]] # is disabled
                 then
-                        EXECUTE+="--output $CURRENT --auto --above $DEFAULT_OUTPUT "
+                        EXECUTE+="--output $CURRENT --auto --left-of $DEFAULT_OUTPUT "
                 else
                         EXECUTE+="--output $CURRENT --off "
                 fi
