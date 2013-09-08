@@ -1,4 +1,10 @@
-gtk-theme-name="MurrinaAquaIsh"
+style "Default"
+{
+  font_name = "Dustismo 10"
+}
+widget_class "*" style "Default" 
+
+gtk-theme-name="Arch"
 gtk-cursor-theme-name="ArchCursorBlue"
 gtk-icon-theme-name="OxygenRefit2-black-version"
 gtk-font-name = "Dustismo 10"
