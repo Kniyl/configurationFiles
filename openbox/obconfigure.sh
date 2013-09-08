@@ -1,6 +1,6 @@
 #!/bin/bash
 
-confDir="~/.config/configurationFiles/openbox"
+confDir="$HOME/.config/configurationFiles/openbox"
 
 yaourt -S --needed openbox openbox-themes feh lalcal xcompmgr stalonetray obfilebrowser mimeo pcmanfm lxpolkit
 mkdir -p ~/.config/openbox/Wallpapers/

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-confDir="~/.config/configurationFiles"
+confDir="$HOME/.config/configurationFiles"
 
 cp $confDir/bashrc ~/.bashrc
 ln -s $confDir/latexmkrc ~/.latexmkrc
