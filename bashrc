@@ -5,8 +5,10 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=auto'
 alias mkdir='mkdir -p'
+sudo () {
+  su -l root -s /bin/bash -c "$*"
+}
 
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
