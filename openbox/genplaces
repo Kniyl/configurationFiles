@@ -1,0 +1,10 @@
+#!/bin/sh
+
+echo "<openbox_pipe_menu>"
+echo "  <menu id=\"places-home\" label=\"Dossier personnel\" execute=\"obfilebrowser ~ --no-hidden --no-parent\"/>"
+echo "  <menu id=\"places-root\" label=\"Système de fichiers\" execute=\"obfilebrowser / --no-parent\"/>"
+for folder in `ls /media`
+do 
+	echo "  <menu id=\"amovible_$folder\" label=\"$folder\" execute=\"obfilebrowser /media/$folder --no-parent\"/>"
+done
+echo "</openbox_pipe_menu>"
