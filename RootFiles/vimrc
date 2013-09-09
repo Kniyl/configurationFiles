@@ -16,4 +16,4 @@ set timeout ttimeoutlen=10
 
 imap ., <ESC>
 vmap ., <ESC>
-source ~/.config/configurationFiles/vimrc.bepo
+source /etc/vimrc.bepo

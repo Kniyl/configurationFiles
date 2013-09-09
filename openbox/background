@@ -1,0 +1,17 @@
+#!/bin/sh
+
+number=$RANDOM
+let "number %= 7"
+
+image="$HOME/.config/openbox/Wallpapers/"
+case $number in
+  0)  image+="iopette.jpg";;
+  1)  image+="ragdoll_wallpaper.jpg";;
+  2)  image+="dragon_wallpaper.jpg";;
+  3)  image+="tree_wallpaper.jpg";;
+  4)  image+="roublarde.jpg";;
+  5)  image+="xelorette01.jpg";;
+  *)  image+="wohptinssafaymalh.jpg";;
+esac
+
+feh --bg-fill "$image"
