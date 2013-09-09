@@ -1,7 +1,7 @@
 #!/bin/sh
 
 number=$RANDOM
-let "number %= 7"
+let "number %= 8"
 
 image="$HOME/.config/openbox/Wallpapers/"
 case $number in
@@ -11,6 +11,7 @@ case $number in
   3)  image+="tree_wallpaper.jpg";;
   4)  image+="roublarde.jpg";;
   5)  image+="xelorette01.jpg";;
+  6)  image+="ouassingue.png";;
   *)  image+="wohptinssafaymalh.jpg";;
 esac
 
