@@ -7,7 +7,7 @@
 
 alias mkdir='mkdir -p'
 sudo () {
-  su -l root -s /bin/bash -c "$*"
+  su -s /bin/bash -c "$*"
 }
 
 bind '"\e[A": history-search-backward'
