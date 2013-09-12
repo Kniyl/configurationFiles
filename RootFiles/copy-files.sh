@@ -6,6 +6,7 @@ pacman -Sy --needed yaourt
 cp modprobe.conf /etc/modprobe.d/modprobe.conf
 mkinitcpio -p linux
 
+yaourt -S --needed vim-default-editor
 cat vimrc >> /etc/vimrc
 cp vimrc.bepo /etc/vimrc.bepo
 echo "alias ls='ls --color=auto'" >> /etc/bash.bashrc
