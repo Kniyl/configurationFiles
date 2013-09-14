@@ -11,5 +11,5 @@ yaourt -S --needed xfce4-terminal ttf-bitstream-vera ttf-dejavu
 mkdir -p ~/.config/Terminal/
 cp $confDir/terminalrc ~/.config/Terminal/
 
-echo "Put genmenu, genplaces and pyprocesses into your \$PATH"
+sudo cp genmenu genplaces pyprocesses /usr/bin
 

@@ -181,8 +181,8 @@
     <keybind key="A-F1"><action name="Execute"><command>xfce4-terminal --fullscreen</command></action></keybind>
     <keybind key="A-F2"><action name="Execute"><command>firefox</command></action></keybind>
     <keybind key="Print"><action name="Execute"><command>gimp</command></action></keybind>
-    <keybind key="W-j"><action name="Execute"><command>~/.config/openbox/toggle_display</command></action></keybind>
-    <keybind key="W-p"><action name="Execute"><command>~/.config/openbox/toggle_display</command></action></keybind>
+    <keybind key="W-j"><action name="Execute"><command>~/.config/openbox/toggle_display LVDS1</command></action></keybind>
+    <keybind key="W-p"><action name="Execute"><command>~/.config/openbox/toggle_display LVDS1</command></action></keybind>
     <keybind key="Menu"><action name="Execute"><command>thunar</command></action></keybind>
     <!--<keybind key="XF86Sleep"><action name="Execute"><command>systemctl hibernate</command></action></keybind>
     <!- - Keybindings for poping menus up -->
