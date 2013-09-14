@@ -3,5 +3,5 @@ xcompmgr &
 #cbatticon &
 #alsa-tray &
 lalcal --hlcolor darkgreen --font Dustismo --fontsize 14 --calfont Dustismo --calfontsize 12 &
-~/.config/openbox/toggle_display
+~/.config/openbox/toggle_display LVDS1
 (sleep 10; stalonetray -t true -p true --dockapp-mode simple) &
