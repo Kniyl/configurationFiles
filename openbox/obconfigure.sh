@@ -6,6 +6,7 @@ yaourt -S --needed openbox openbox-themes feh lalcal xcompmgr stalonetray obfile
 mkdir -p ~/.config/openbox/Wallpapers/
 cp $confDir/Wallpapers/* ~/.config/openbox/Wallpapers/
 cp $confDir/rc.xml $confDir/menu.xml $confDir/autostart.sh $confDir/background $confDir/toggle_display ~/.config/openbox/
+ln -s $confDir/stalonetrayrc ~/.stalonetrayrc
 
 yaourt -S --needed xfce4-terminal ttf-bitstream-vera ttf-dejavu
 mkdir -p ~/.config/Terminal/
