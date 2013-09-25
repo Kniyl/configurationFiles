@@ -183,7 +183,7 @@
     <keybind key="Print"><action name="Execute"><command>scrot</command></action></keybind>
     <keybind key="W-j"><action name="Execute"><command>~/.config/openbox/toggle_display LVDS1</command></action></keybind>
     <keybind key="W-p"><action name="Execute"><command>~/.config/openbox/toggle_display LVDS1</command></action></keybind>
-    <keybind key="Menu"><action name="Execute"><command>thunar</command></action></keybind>
+    <keybind key="Menu"><action name="Execute"><command>pcmanfm</command></action></keybind>
     <!--<keybind key="XF86Sleep"><action name="Execute"><command>systemctl hibernate</command></action></keybind>
     <!- - Keybindings for poping menus up -->
     <keybind key="W-twosuperior"><action name="ShowMenu"><menu>root-menu</menu></action></keybind>
