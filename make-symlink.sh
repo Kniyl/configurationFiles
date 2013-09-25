@@ -5,8 +5,7 @@ confDir="$HOME/.config/configurationFiles"
 cp $confDir/bashrc ~/.bashrc
 ln -s $confDir/latexmkrc ~/.latexmkrc
 
-mkdir -p ~/PkgBuilding/yaourt.sources
-mkdir -p ~/PkgBuilding/yaourt.devel
+mkdir -p ~/PkgBuilding/yaourt.{sources,devel}
 ln -s $confDir/yaourtrc ~/.yaourtrc
 
 yaourt -S --needed gtk-theme-murrine-arch ttf-cheapskate ttf-dejavu
