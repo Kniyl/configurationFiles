@@ -2,7 +2,7 @@
 
 confDir="$HOME/.config/configurationFiles/openbox"
 
-yaourt -S --needed openbox openbox-themes feh lalcal xcompmgr stalonetray obfilebrowser mimeo pcmanfm gnome-menus2 lxpolkit ttf-tlwg
+yaourt -S --needed openbox openbox-themes feh lalcal xcompmgr stalonetray obfilebrowser mimeo pcmanfm gnome-menus2 lxpolkit ttf-tlwg scrot
 mkdir -p ~/.config/openbox/Wallpapers/
 cp $confDir/Wallpapers/* ~/.config/openbox/Wallpapers/
 cp $confDir/rc.xml $confDir/menu.xml $confDir/autostart.sh $confDir/background $confDir/toggle_display ~/.config/openbox/
