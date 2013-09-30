@@ -17,9 +17,9 @@ shopt -s autocd
 
 CLEAR='\[\033[0m\]'
 DAY='\[\033[35m\]'
-HOUR='\[\033[1;34m\]'
+HOUR='\[\033[33m\]'
 WHO='\[\033[32m\]'
-FOLDER='\[\033[1;33m\]'
+FOLDER='\[\033[36m\]'
 LINE='\[\033[1;34m\]'
 
 PROMPT_COMMAND='NOTE=""; case $((RANDOM%2)) in 1) NOTE+="𝄞";; *) NOTE+="𝄢" ;; esac; for i in `seq 0 $((RANDOM%9+1))`; do case $((RANDOM%10)) in 1) NOTE+="𝅝";; 2) NOTE+="𝅗𝅥";; 3) NOTE+="𝅘𝅥";; 4) NOTE+="𝅘𝅥𝅮";; 5) NOTE+="𝅘𝅥𝅯";; 6) NOTE+="𝅘𝅥𝅰";; 7) NOTE+="𝅘𝅥𝅱";; 8) NOTE+="𝅘𝅥𝅲";; 9) NOTE+="♬";; *) NOTE+="♫";; esac; done'
